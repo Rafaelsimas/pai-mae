@@ -1,0 +1,19 @@
+#container{
+    text-align: center;
+}
+#container img{
+    width: 100%;
+}
+#container .card{
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+}
+#container h1, p{
+    font-family: 'manrope', sans-serif;
+}
+@media (max-width:700px){
+    #container .card{
+        grid-template-columns: 1fr;
+        display: grid;
+    }
+}
